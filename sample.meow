@@ -1,0 +1,14 @@
+MVI B,4A
+LOOP: INR A
+
+DCR B
+JNZ LOOP
+
+
+
+
+MOV H,A
+MOV C,H
+
+
+HLT
